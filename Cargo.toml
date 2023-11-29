@@ -1,0 +1,19 @@
+[package]
+name = "mev-share-analysis"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+clap = { version = "4.4.9", features = ["derive"] }
+dotenv = "0.15.0"
+ethers = { version = "2.0", features = ["ipc"] }
+futures = "0.3.29"
+mev-share = "0.1.4"
+mongodb = "2.7.1"
+reqwest = "0.11.22"
+serde = "1.0.192"
+serde_json = "1.0.108"
+tokio = "1.33.0"

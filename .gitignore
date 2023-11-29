@@ -1,0 +1,5 @@
+/target
+.env
+.vscode
+/analysis/mev-share.events.json
+/analysis/mev-share.events.json.zip
