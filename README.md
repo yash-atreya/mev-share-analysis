@@ -12,7 +12,7 @@ This repository can be used by data analysts and searchers.
 - [MongoDB](https://docs.mongodb.com/manual/installation/)
 
 ```bash
-git clone
+git clone https://github.com/yash-atreya/mev-share-analysis.git
 cd mev-share-analysis
 cargo build
 ```
